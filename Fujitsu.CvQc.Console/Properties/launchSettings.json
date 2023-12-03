@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Fujitsu.CvQc.Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONEMENT": "Development"
+      }
+    }
+  }
+}
