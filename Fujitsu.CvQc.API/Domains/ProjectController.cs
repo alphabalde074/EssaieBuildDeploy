@@ -13,6 +13,7 @@ public class ProjectController : ControllerBase
     public async Task<dynamic> GetProjects()
     {
         int aTestEssaieDep = 1;
+        int aTestEssaieDep2 = 1;
         var task = Task.Run(() => projectService.GetProjects());
         return await task;
     }
